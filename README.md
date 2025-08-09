@@ -4,6 +4,8 @@ Semantic news parser that runs directly in claude client, stores prompts for lat
 ## Quick start
 Paste this into any Claude conversation to recreate the tool. It will run directly in claude client, additions will be saved until you clear browser cache.
 
+# Whenever claude api gets web access this will work
+
 ```
 Create a web-based semantic news scanner React component that:
 
@@ -22,6 +24,7 @@ Create a web-based semantic news scanner React component that:
 - Error handling and API rate limiting
 
 Make it a complete, production-ready React artifact that handles everything automatically.
+Ensure that it works by running "Figma IPO occured" and it should say yes and "Humans living on mars" and it should say false.
 ```
 
 ## 🔧 Customization Ideas
