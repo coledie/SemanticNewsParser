@@ -4,10 +4,9 @@ Semantic news parser that runs directly in claude client, stores prompts for lat
 ## Quick start
 Paste this into any Claude conversation to recreate the tool. It will run directly in claude client, additions will be saved until you clear browser cache.
 
-# Whenever claude api gets web access this will work
-
 ```
 Create a web-based semantic news scanner React component that:
+It is not possible to use claude API to make web calls directly. So this app must interface with the claude instance hosting it instead of the normal API so we can get accurate recent information.
 
 1. **Event Management**: Add/remove custom events to monitor (like "SpaceX Starship orbital test", "Company X earnings")
 2. **Claude API Integration**: Uses Claude API to check if events occurred with structured JSON responses  
@@ -15,6 +14,7 @@ Create a web-based semantic news scanner React component that:
 4. **Smart Scheduling**: Configurable scan intervals, only checks events that haven't been checked recently
 5. **Professional UI**: Dashboard with status counts, activity logs, start/stop controls
 6. **Data Management**: Export/import functionality, clear all option
+
 
 **Key Features:**
 - Automated periodic scanning with Claude AI analysis
